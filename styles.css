@@ -1,0 +1,605 @@
+/* Estilos generales */
+
+a {
+    text-decoration: none;
+    color: #411016;
+}
+
+.aFooter:hover {
+    color: #C5292C;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    background-color: #F4F4F4;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #411016;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #411016;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #411016;
+}
+
+p {
+    font-size: 10px;
+    font-weight: bold;
+    color: #411016;
+}
+
+button {
+    background-color: #D70021;
+    border-radius: 30px;
+    padding: 15px 35px;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    border-color: #D70021;
+    border-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+button:hover {
+    background-color: #411016;
+}
+
+.buttonNews{
+    background-color: #D70021;
+    border-radius: 0px 30px 30px 0px;
+    padding: 15px 35px;
+    color: white;
+    font-weight: bold;
+    border-color: #D70021;
+    border-style: none;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.buttonNews:hover {
+    background-color: #411016;
+}
+
+.labelCiudades{
+    font-family: 'Nunito', sans-serif;
+    background-color: #F4F4F4;
+    border-color: #F4F4F4;
+    color: #411016;
+    font-size: 15px;
+}
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Estilos desktop */
+
+@media screen and (min-width: 1280px) and (max-width: 2000px) {
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    z-index: 1000;
+}
+
+.top-banner {
+    background-color: #411016;
+    padding: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.headerSuperiorDesk {
+    display: flex;
+    background-color: #F4F4F4;
+    color: #F4F4F4;
+    position: relative;
+    max-width: 100%;
+}
+
+.headerSuperiorMobile {
+    display: none;
+}
+
+.imagen1 {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+.imagen2, .imagen3 {
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+.logoppalDesk {
+    display: flex;
+    margin-left: 100px;
+    width: 130px;
+    height: 156px;
+    float: left;
+    position: absolute;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4F4F4;
+    padding: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #411016;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.buscador {
+    display: flex;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.input-container {
+    position: relative;
+    width: 514px;
+}
+
+.logobuscador {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    max-width: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px 30px 8px 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bannersDesk {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.bannersMob {
+    display: none;
+}
+
+.gridsImage {
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    max-width: 100%;
+    display: flex;
+}
+
+.titleCarrousel {
+    text-align: center;
+    color: #411016;
+    margin-top: 40px;
+}
+
+.containerCarrousel {
+    max-width: 1200px;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.category {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 35px;
+    text-align: center;
+    width: 156px;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.category img {
+    width: 106px;
+    height: 148px;
+}
+
+.category h2 {
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 1em;
+    color: #411016;
+}
+
+.containerVitrina {
+    max-width: 1200px;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.product {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 260px;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.product img {
+    width: 260px;
+    height: 260px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.product h2 {
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.product p {
+    font-size: 1em;
+    color: #411016;
+    justify-content: center;
+}
+
+.footerDesk{
+    padding: 20px 86px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+
+.footer1 {
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #411016;
+    border-bottom: 1px solid #BDBDBD ;
+}
+
+.footerDesk p {
+    text-align: center;
+    font-size: 14px !important;
+}
+
+.columnasFooter {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footerUlt {
+    flex: 100%;
+    box-sizing: border-box;
+}
+
+.inputNews {
+    padding: 15px;
+    margin: 0px;
+    border-color: #E0E0E0;
+    border-style: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+
+.checkboxNews {
+    padding: 10px;
+}
+
+.columnasFooter2 {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.columnasFooter2 .logosRS a {
+    margin: 10px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.footer2 {
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #411016;
+}
+
+.itemsFooter {
+    margin: 10px;
+}
+
+.imgGPS {
+    height: 30px;
+}
+
+.mediospago {
+    height: 35px;
+    margin: 10px;
+}
+
+.logosFooter {
+    height: 15px;
+    margin: 19px;
+}
+
+.footerMob {
+    display: none;
+}
+}
+
+/* Estilos mobile */
+
+@media only screen and (max-width: 1200px) {
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.headerSuperiorDesk {
+    display: none;
+}
+
+.headerSuperiorMobile {
+    background-color: #F4F4F4;
+}
+
+.headerSuperiorMobile .row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.headerSuperiorMobile .row1 .menuHamb {
+    margin: 40px 30px;
+}
+
+.headerSuperiorMobile .row1 .logoppalMob {
+    margin: 40px 30px;
+}
+
+.headerSuperiorMobile .row1 .cart {
+    margin: 40px 30px;
+}
+
+.top-banner {
+    background-color: #411016;
+    padding: 7px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+.imagen1 , .imagen2 , .imagen3 {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+.buscador {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+.logobuscador {
+    position: absolute;
+    top: 32%;
+    left: 46px;
+    transform: translateY(-135%);
+    max-width: 25px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 13px 12px 50px;
+    border: 5px solid white;
+    border-radius: 50px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bannersDesk {
+    display: none;
+}
+
+.gridsImage {
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    max-width: 100%;
+}
+
+.titleCarrousel {
+    text-align: center;
+    color: #411016;
+    margin-top: 40px;
+}
+
+.containerCarrousel {
+    max-width: 1200px;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.category {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 156px;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.category img {
+    width: 106px;
+    height: 148px;
+}
+
+.category h2 {
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 1em;
+    color: #777;
+}
+
+.containerVitrina {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.product {
+    margin: 5px;
+    padding: 1px;
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+    height: 450px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.product h2 {
+    justify-content: center;
+}
+
+.product p {
+    font-size: 1em;
+    color: #411016;
+    justify-content: center;
+}
+
+.footerMob {
+    padding: 20px 70px 70px 70px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+
+.footer1 {
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #411016;
+    border-bottom: 1px solid #BDBDBD ;
+}
+
+.footerMob p {
+    text-align: center;
+    font-size: 14px !important;
+}
+
+.columnasFooter {
+    padding: 10px;
+}
+
+.footerUlt {
+    flex: 100%;
+    box-sizing: border-box;
+}
+
+.inputNews {
+    padding: 15px;
+    border-color: #E0E0E0;
+    border-style: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.checkboxNews {
+    padding: 10px;
+}
+
+.columnasFooter button {
+    padding: 15px;
+    font-size: 12px;
+}
+
+.columnasFooter2 {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.columnasFooter2 .logosRS a {
+    margin: 10px;
+    text-align: center;
+}
+
+.footerDesk {
+    display: none;
+}
+
+}
